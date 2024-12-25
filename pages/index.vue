@@ -1,9 +1,11 @@
+<script setup>
+
+</script>
 <template>
-  <v-container>
-    <h1>Welcome to Your Nuxt 3 Project</h1>
-  </v-container>
-  <v-alert color="secondary">This is a primary alert.</v-alert>
+  <div>
+    <PhArrowsHorizontal />
+    <v-btn>hello</v-btn>
+    <v-btn append-icon="PhArrowsHorizontal">hello</v-btn>
+  </div>
 </template>
 
-<script setup>
-</script>
