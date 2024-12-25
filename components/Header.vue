@@ -3,6 +3,7 @@
 
 <template>
   <div>
+    <ThemeSwitcher />
     <p>this is header</p>
   </div>
 </template>
