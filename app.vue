@@ -1,8 +1,6 @@
 <template>
   <v-app>
-    <v-main>
-      <router-view />
-    </v-main>
+    <nuxt-layout />
   </v-app>
 </template>
 

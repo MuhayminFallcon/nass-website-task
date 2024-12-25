@@ -3,9 +3,8 @@
 </script>
 <template>
   <div>
-    <PhArrowsHorizontal />
-    <v-btn>hello</v-btn>
-    <v-btn append-icon="PhArrowsHorizontal">hello</v-btn>
+    <v-btn prepend-icon="PhSmiley" class="m-10" color="on-surface" variant="text">hello</v-btn>
+    <p ></p>
   </div>
 </template>
 

@@ -1,0 +1,71 @@
+import {twColors} from "~/plugins/vuetify/tw-colors.js";
+
+export const LIGHT_THEME = 'light';
+// Light mode theme
+export const light = {
+    dark: false,
+    colors: {
+        background: twColors.white,
+        surface: twColors.gray[100],
+        surface2: twColors.darkgray[500],
+        primary: twColors.primary[500],
+        secondary: twColors.purple[600],
+        error: twColors.red[500],
+        info: twColors.blue[500],
+        success: twColors.emerald[500],
+        warning: twColors.amber[500],
+        onSurface: twColors.gray[900],
+        onPrimary: twColors.white,
+        onBackground: twColors.gray[800],
+        onSecondary: twColors.white,
+        onError: twColors.white,
+        onInfo: twColors.white,
+        onSuccess: twColors.white,
+        onWarning: twColors.white,
+        gray50: twColors.gray[50],
+        gray100: twColors.gray[100],
+        gray200: twColors.gray[200],
+        gray300: twColors.gray[300],
+        gray400: twColors.gray[400],
+        gray500: twColors.gray[500],
+        gray600: twColors.gray[600],
+        gray700: twColors.gray[700],
+        gray800: twColors.gray[800],
+        gray900: twColors.gray[900],
+    },
+};
+
+export const DARK_THEME = 'dark';
+// Dark mode theme
+export const dark = {
+    dark: true,
+    colors: {
+        background: twColors.slate[800],
+        surface: twColors.slate[900],
+        surface2: twColors.darkgray[500],
+        primary: twColors.primary[500],
+        secondary: twColors.purple[500],
+        error: twColors.red[500],
+        info: twColors.blue[500],
+        success: twColors.emerald[500],
+        warning: twColors.amber[500],
+        onSurface: twColors.gray[100],
+        onPrimary: twColors.black,
+        onBackground: twColors.gray[100],
+        onSecondary: twColors.black,
+        onError: twColors.black,
+        onInfo: twColors.black,
+        onSuccess: twColors.black,
+        onWarning: twColors.black,
+        gray50: twColors.gray2[50],
+        gray100: twColors.gray2[100],
+        gray200: twColors.gray2[200],
+        gray300: twColors.gray2[300],
+        gray400: twColors.gray2[400],
+        gray500: twColors.gray2[500],
+        gray600: twColors.gray2[600],
+        gray700: twColors.gray2[700],
+        gray800: twColors.gray2[800],
+        gray900: twColors.gray2[900],
+    },
+};

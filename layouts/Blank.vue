@@ -1,10 +1,14 @@
+<script setup>
+
+</script>
+
 <template>
   <v-app>
     <v-main>
-      <slot />
+      <NuxtPage />
     </v-main>
   </v-app>
 </template>
 
-<script setup>
-</script>
+<style scoped>
+</style>

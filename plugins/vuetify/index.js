@@ -3,6 +3,10 @@ import { createVuetify } from 'vuetify';
 import '@mdi/font/css/materialdesignicons.css'; // Required for Vuetify default styles
 import * as PhosphorIcons from '@phosphor-icons/vue';
 import { h } from 'vue';
+import {defaults} from "~/plugins/vuetify/defaults.js";
+import {light, dark, LIGHT_THEME} from "~/plugins/vuetify/themes.js";
+import {twColors} from "~/plugins/vuetify/tw-colors.js";
+
 
 const phosphorIcons = Object.keys(PhosphorIcons).reduce((icons, key) => {
     icons[key] = PhosphorIcons[key];
@@ -10,6 +14,21 @@ const phosphorIcons = Object.keys(PhosphorIcons).reduce((icons, key) => {
 }, {});
 
 const vuetify = createVuetify({
+    ssr: true,
+    defaults,
+    rtl: true,
+    theme: {
+        defaultTheme: LIGHT_THEME,
+        themes: {
+            light,
+            dark,
+        },
+        variations: {
+            colors: ["primary", "secondary"],
+            lighten: 3,
+            darken: 3,
+        },
+    },
     icons: {
         defaultSet: 'phosphor',
         sets: {
