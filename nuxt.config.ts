@@ -47,5 +47,6 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: 'project name', // website title
+    },
   },
 });
